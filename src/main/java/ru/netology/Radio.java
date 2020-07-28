@@ -75,21 +75,24 @@ public class Radio {
 
 
     public void soundLouder () {
-        if (currentVolume == maxVolume)
-            return;
-        currentVolume++;
+        if (currentVolume == maxVolume) {
+            return; {
+        currentVolume++; }
+        }
     }
 
     public void soundQuieter () {
-        if (currentVolume == minVolume)
-            return;
-        currentVolume--;
+        if (currentVolume == minVolume) {
+            return; {
+        currentVolume--; }
+        }
     }
 
     public void nextStatin () {
         if (currentStation == maxStation) {
-            currentStation = minStation;
-            return;
+            currentStation = minStation; 
+            return; {
+            }
         }
         currentStation++;
     }
@@ -98,7 +101,8 @@ public class Radio {
     public void prevStation () {
         if (currentStation == minStation) {
             currentStation = maxStation;
-            return;
+            return; {
+            }
         }
         currentStation--;
     }
