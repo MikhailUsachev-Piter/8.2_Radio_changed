@@ -21,9 +21,7 @@
             <version>5.4.2</version>
             <scope>test</scope>
         </dependency>
-    </dependencies>
-         
-    <dependencies>
+
 	<dependency>
 		<groupId>org.projectlombok</groupId>
 		<artifactId>lombok</artifactId>
