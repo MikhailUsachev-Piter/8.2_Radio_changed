@@ -73,36 +73,32 @@ public class Radio {
         return minVolume;
     }
 
-
     public void soundLouder () {
         if (currentVolume == maxVolume) {
-            return; {
-        currentVolume++; }
+            return;
         }
+        currentVolume++;
     }
 
     public void soundQuieter () {
         if (currentVolume == minVolume) {
-            return; {
-        currentVolume--; }
+            return;
         }
+        currentVolume--;
     }
 
     public void nextStatin () {
         if (currentStation == maxStation) {
             currentStation = minStation; 
-            return; {
-            }
+            return;
         }
         currentStation++;
     }
 
-
     public void prevStation () {
         if (currentStation == minStation) {
             currentStation = maxStation;
-            return; {
-            }
+            return;
         }
         currentStation--;
     }
